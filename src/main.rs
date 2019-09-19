@@ -231,8 +231,9 @@ let mut e_player_open = false;
 let mut s_player_open = false;
 /*
 Bellow is the initial implementation for opening for all player,
-implementation is incomplete therefore it is commented out
+implementation is in process therefore commend this section of code out before testing
 //keep track of number of number of consecutive passes
+*/
 let mut num_passes = 0;
 game: while num_passes != 3{
     //opening for south_player
@@ -284,7 +285,7 @@ game: while num_passes != 3{
 
     }
 }
-*/
+
 //Building the game object
 let game_board = Game {north: n_player, south:s_player, east: e_player, west:w_player};
 game_board
