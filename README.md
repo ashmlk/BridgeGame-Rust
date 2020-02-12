@@ -1,2 +1,2 @@
 # BridgeGame-Rust
-A Bbridge bidding game in Rust
+A bridge bidding game in Rust
